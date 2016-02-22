@@ -1,0 +1,55 @@
+* {
+    font-family: arial, helvetica, sans-serif;
+}
+
+#heading {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div {
+    background-color: #51a9fa;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#firstDiv {
+    height: 100px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#leftSide {
+    height: 900px;
+    width: 270px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 5px;
+}
+
+#chartType {
+    font-size: 30px;
+    font-style: inherit;
+}
+
+.chartImages {
+    height: 200px;
+    width: 250px;
+}
+
+.leftSideTable td {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tableHeaderSchedule {
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#leftSideTableData {
+    text-align: center;
+}
