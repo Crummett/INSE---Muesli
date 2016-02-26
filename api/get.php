@@ -1,5 +1,5 @@
 <?php
-	include '../inc/connection.php';
+	include '../inc/all.php';
 
 	$query = "SELECT * from task;";
     $rows = $db->query($query);
