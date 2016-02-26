@@ -1,5 +1,5 @@
 <?php
-	include '../inc/all.php';
+	include '../../inc/all.php';
 	
 	$task = $_POST['task'];
 	$presendingId = $_POST['presendingId'];
