@@ -1,7 +1,7 @@
 <?php
 	include '../inc/all.php';
 
-	$query = "SELECT * from task;";
+	$query = "SELECT * from Task;";
     $rows = $db->query($query);
     $rows = $rows->fetchAll(PDO::FETCH_ASSOC);
     
