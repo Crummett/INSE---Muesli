@@ -9,10 +9,10 @@
 	
 	if (isset($_POST['PreseedingID'])) {
 		$PreseedingID = $_POST['PreseedingID'];
-		$query = "INSERT INTO Task (Text, PreseedingID, WBTX, WBTY, WBTWidth, WBTHeight) VALUES ('${Task}', ${PresendingID}, ${WBTX}, ${WBTY}, ${WBTWidth}, ${WBTHeight});";
+		$query = "INSERT INTO Task (Text, PreseedingID, WBTX, WBTY, WBTWidth, WBTHeight) VALUES ('${Text}', ${PresendingID}, ${WBTX}, ${WBTY}, ${WBTWidth}, ${WBTHeight});";
 	}
 	else {
-		$query = "INSERT INTO Task (Text, WBTX, WBTY, WBTWidth, WBTHeight) VALUES ('${Task}', ${WBTX}, ${WBTY}, ${WBTWidth}, ${WBTHeight});";
+		$query = "INSERT INTO Task (Text, WBTX, WBTY, WBTWidth, WBTHeight) VALUES ('${Text}', ${WBTX}, ${WBTY}, ${WBTWidth}, ${WBTHeight});";
 	}
 	$db->query($query);
 ?>

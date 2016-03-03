@@ -7,6 +7,7 @@
     
     $results = [];
 	$results["rows"] = $rows;
+	
 	header("Content-Type: application/json");
     echo json_encode($results);
 ?>
