@@ -6,39 +6,68 @@
     <title>Scheduling Software for Students</title>
 </head>
 <body>
-<div id="firstDiv">
+<nav id="navigation">
     <h1 id="heading">Scheduling Software for Students</h1>
-</div>
-<div id="leftSide">
+
+    <form id="login" name="Login" action="index_submit" method="get" accept-charset="UTF-8S">
+        <ul>
+            <li><label for="username">Email</label>
+                <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
+            <li><label for="password">Password</label>
+                <input type="password" name="password" placeholder="password" required></li>
+            <li>
+                <input type="submit" value="Login"></li>
+        </ul>
+    </form>
+</nav>
+<div id="leftSideDiv">
     <table class="leftSideTable">
         <thead>
         <tr>
-            <td id="tableHeaderSchedule">Schedule Type</td>
+            <td id="chartHeader">Schedule Type</td>
         </tr>
         </thead>
         <tr>
-            <td id="leftSideTableData">Gantt Chart</td>
+            <td class="chartHeading">Gantt Chart</td>
         </tr>
         <tr>
-            <td><img class="chartImages" src="http://www.advsofteng.com/images/colorgantt.png" alt=""></td>
+
+            <td>
+                <a href="index.html">
+                    <img class="chartImages" src="lib/gant.PNG" alt="">
+                </a>
+            </td>
         </tr>
         <tr>
-            <td id="leftSideTableData">Pert Chart</td>
+            <td class="chartHeading">Pert Chart</td>
         </tr>
         <tr>
-            <td><img class="chartImages" src="http://2012books.lardbucket.org/books/an-introduction-to-business-v1.0/section_15/cbf3a121852b2a1715a4e7c4a4dab509.jpg" alt=""></td></tr>
-        <tr>
-            <td id="leftSideTableData">WBT Diagram</td>
+
+            <td>
+                <a href="index.html">
+                    <img class="chartImages" src="lib/pert.PNG" alt="">
+                </a>
+
+
+            </td>
         </tr>
         <tr>
-            <td><img class="chartImages" src="http://4.bp.blogspot.com/_N4oyBHJS35Q/S5ZR6AfPYwI/AAAAAAAAAOc/wbt7vNvNgKk/s400/BRTF.jpg" alt=""></td>
+            <td class="chartHeading">WBT Diagram</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="index.html">
+                    <img class="chartImages" src="lib/wbt.PNG" alt="">
+                </a>
+            </td>
         </tr>
     </table>
 </div>
+<div id="welcomeText">
+    Hello, Please select the chart you wish to create from the left hand menu.
+</div>
 
-<iframe id="wbt" src="wbt.html" style="border:none"></iframe>
-<script type="text/javascript" src="lib/xhr.js"></script>
-<script type="text/javascript" src="lib/senddata.js"></script>
+<!--<iframe id="wbt" src="wbt.html" style="border:none"></iframe>-->
 
 </body>
 </html>
