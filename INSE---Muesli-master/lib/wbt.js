@@ -85,10 +85,6 @@ function addNode() {
     }
 }
 
-function importDataSets(dataSet) {
-    nodes = dataSet;
-}
-
 function exportDataSets() {
 
 }
