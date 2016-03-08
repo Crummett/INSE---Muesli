@@ -6,7 +6,7 @@
 	$createquery = "CREATE TABLE IF NOT EXISTS Task (
 				    ID int auto_increment PRIMARY KEY,
 					Text VARCHAR(100) not null,
-					PreseedingID int,
+					PrecedingID int,
 					PlanStartTime int,
 					PlanDuration int,
 					PlanEndTime int,
