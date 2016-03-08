@@ -3,8 +3,15 @@
 }
 
 #heading {
+    width:80%;
     color: #FFFFFF;
     text-align: center;
+    font-size:2.5vw;
+    margin-top: 20px;
+
+}
+#login {
+    float: right;
 }
 
 div {
@@ -12,22 +19,22 @@ div {
 }
 
 img {
-    border-radius: 5px;
 }
 
-#firstDiv {
-    height: 100px;
+#navigation {
+    height: 125px;
     width: auto;
     border: 1px solid black;
-    border-radius: 5px;
+    min-width: 250px;
+    background-color: #51a9fa;
 }
 
-#leftSide {
-    height: 900px;
+#leftSideDiv {
+    height: 100%;
     width: 20%;
     border: 1px solid black;
     float: left;
-    border-radius: 5px;
+    min-width: 250px;
 }
 
 #wbt {
@@ -36,25 +43,40 @@ img {
     float: right;
 }
 #chartType {
-    font-size: 30px;
+    font-size: 2vw;
     font-style: inherit;
 }
 
 .chartImages {
-    height: 200px;
-    width: 250px;
+    height: auto;
+    width: 100%;
 }
 
-.leftSideTable td {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#tableHeaderSchedule {
-    font-size: 35px;
+#chartHeader {
+    font-size: 2vw;
     font-weight: bolder;
     text-decoration: underline;
-}
-#leftSideTableData {
     text-align: center;
+}
+.chartHeading {
+    text-align: center;
+    height:20px;
+    width:auto;
+    font-weight: bolder;
+    font-size:2vw;
+}
+
+#welcomeText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    background-color: transparent;
+    font-size: 3vw;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 25px;
+    word-wrap:  break-word;
+    margin-top:250px;
+
 }
