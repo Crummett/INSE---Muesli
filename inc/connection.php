@@ -21,6 +21,6 @@
 					ActualDuration int,
 					ActualEndTime int,
 					Complete int,
-					CONSTRAINT PreseedingIDIDFK FOREIGN KEY (PreseedingID) REFERENCES Task(ID)
+					CONSTRAINT PrecedingIDIDFK FOREIGN KEY (PrecedingID) REFERENCES Task(ID)
 				    );";
 ?>
