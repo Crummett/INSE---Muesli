@@ -1,0 +1,81 @@
+* {
+    font-family: arial, helvetica, sans-serif;
+}
+
+#heading {
+    width:100%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:2.5vw;
+    height:auto;
+}
+
+div {
+    background-color: #51a9fa;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#topDiv {
+    height: 100px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+#leftSideDiv {
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+#wbt {
+    width: 79%;
+    height: 550px;
+    float: right;
+}
+#chartType {
+    font-size: 2vw;
+    font-style: inherit;
+}
+
+.chartImages {
+    height: auto;
+    width: 100%;
+}
+
+
+.chartHeader {
+    font-size: 2vw;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+.chartHeading {
+    text-align: center;
+    height:20px;
+    width:auto;
+    font-weight: bolder;
+    font-size:2vw;
+}
+
+#welcomeText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    background-color: transparent;
+    font-size: 3vw;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 25px;
+    word-wrap:  break-word;
+    margin-top:250px;
+
+}
