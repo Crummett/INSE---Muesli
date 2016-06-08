@@ -1,10 +1,12 @@
-
-* {
-    font-family: arial, helvetica, sans-serif;
+#heading {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    margin:auto;
 }
 
 body {
-    background-color: #F5F5DC;
+    background-color: #EBE8E4;
     color: #222;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -13,12 +15,13 @@ body {
 }
 
 nav {
-    background-color: #51a9fa;
-    border: 2px solid #000000;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
     color: #888;
     display: block;
-    margin: auto;
+    margin: 8px 22px 8px 22px;
     overflow: hidden;
     width: auto;
     height: 150px;
@@ -40,7 +43,7 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    color: #ffffff;
+    color: #aaa;
     display: block;
     line-height: 56px;
     padding: 0 24px;
@@ -48,7 +51,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a > .caret {
-    border-top: 4px solid #ffffff;
+    border-top: 4px solid #aaa;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     content: "";
@@ -64,19 +67,19 @@ nav > ul > li > a > .caret {
 }
 
 nav > ul > li:hover {
-    background-color: #A9D1FA;
+    background-color: rgb( 40, 44, 47 );
 }
 
 nav > ul > li:hover > a {
-    color: rgb(255, 255, 255);
+    color: rgb( 255, 255, 255 );
 }
 
 nav > ul > li:hover > a > .caret {
-    border-top-color: rgb(255, 255, 255);
+    border-top-color: rgb( 255, 255, 255 );
 }
 
 nav > ul > li > div {
-    background-color: #A9D1FA;
+    background-color: rgb( 40, 44, 47 );
     border-top: 0;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
@@ -107,7 +110,7 @@ nav > ul > li > div ul > li > a {
 }
 
 nav > ul > li > div ul > li:hover > a {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba( 255, 255, 255, 0.1);
 }
 
 nav > ul > li:hover > div {
@@ -115,93 +118,4 @@ nav > ul > li:hover > div {
     opacity: 1;
     visibility: visible;
 }
-
-#heading {
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 2.5vw;
-    height: auto;
-    margin: auto;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
-}
-
-.chartHeader {
-    font-size: 2vw;
-    font-weight: bolder;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.chartHeading {
-    text-align: center;
-    height: 20px;
-    width: auto;
-    font-weight: bolder;
-    font-size: 2vw;
-}
-
-.table {
-    align: center;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.chartImages {
-    height: auto;
-    width: 100%;
-}
-#leftDiv {
-    height: auto;
-    width: 33%;
-    float: left;
-    margin: 0 auto;
-    min-width: 250px;
-    display: inline-block;
-
-}
-
-#midDiv {
-    height: auto;
-    width: 33%;
-    margin: 0 auto;
-    min-width: 250px;
-    display: inline-block;
-
-}
-
-#rightDiv {
-    height: auto;
-    width: 33%;
-    float: right;
-    min-width: 250px;
-    margin: 0 auto;
-    display: inline-block;
-
-}
-
-#container {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    margin-top:150px;
-}
-
-#welcomeText {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: auto;
-    background-color: transparent;
-    font-size: 2vw;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 25px;
-    word-wrap: break-word;
-    margin-top: auto;
-
-}
-
-
 

@@ -1,9 +1,5 @@
 <?php
-	$dsn = "mysql:host=localhost;charset-UTF-8";
-	$username = "root";
-	$password = "root";
-	$dbase = "INSE";
-	$createquery = "CREATE TABLE IF NOT EXISTS Task (
+$createquery = "CREATE TABLE IF NOT EXISTS Task (
 				    ID int auto_increment PRIMARY KEY,
 					Text VARCHAR(100) not null,
 					PrecedingID int,
